@@ -1,0 +1,18 @@
+# Bỏ qua file chứa biến môi trường (CỰC KỲ QUAN TRỌNG)
+.env
+.env.local
+
+# Bỏ qua các file cache và môi trường ảo của Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Bỏ qua các file debug JSON của SerpApi
+serpapi_jobs_debug.json
+serper_debug.json
+
+# Bỏ qua thư mục chứa CV cá nhân
+document/
