@@ -48,15 +48,17 @@ Một ứng dụng web thông minh giúp tự động tìm kiếm các công vi�
 ```bash
 git clone [https://github.com/togbaam/ai-cv-evaluator.git](https://github.com/togbaam/ai-cv-evaluator.git)
 cd ai-cv-evaluator
+```
 
 **Bước 2: Cài đặt các công cụ hỗ trợ** Ứng dụng cần một số thư viện để chạy (như khung giao diện, công cụ kết nối web). Hãy yêu cầu Python tải chúng về bằng lệnh sau:
 ```bash
 pip install -r requirements.txt
+```
 
 **Bước 3: Khởi động ứng dụng** Sau khi chạy xong bước 2, bạn gõ lệnh cuối cùng này để đánh thức ứng dụng:
 ```bash
 streamlit run app.py
-
+```
 
 
 
