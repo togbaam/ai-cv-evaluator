@@ -1,10 +1,10 @@
-# 🚀 AI CV Evaluator & Job Finder
+# AI CV Evaluator & Job Finder
 
 Một ứng dụng web thông minh giúp tự động tìm kiếm các công việc phù hợp nhất trên Google Jobs và sử dụng Trí tuệ Nhân tạo (Google Gemini) để chấm điểm mức độ phù hợp giữa CV của bạn và Mô tả công việc (JD).
 
 ---
 
-## ✨ Tính năng nổi bật
+## Tính năng nổi bật
 
 * **Tìm kiếm việc làm Real-time:** Tích hợp `SerpApi` (Engine: Google Jobs) để lấy dữ liệu việc làm thực tế, vượt qua các rào cản chống Bot (Anti-bot/CAPTCHA) của các trang web tuyển dụng thông thường.
 * **Đánh giá CV bằng AI:** Sử dụng mô hình **Google Gemini** để đọc CV (định dạng text) và đối chiếu với từng Job Description, từ đó đưa ra điểm số phù hợp (%) và lời giải thích chi tiết.
@@ -13,7 +13,7 @@ Một ứng dụng web thông minh giúp tự động tìm kiếm các công vi�
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## Công nghệ sử dụng
 
 * **Ngôn ngữ:** Python 3.x
 * **Giao diện Web:** Streamlit, Pandas
@@ -22,7 +22,7 @@ Một ứng dụng web thông minh giúp tự động tìm kiếm các công vi�
 
 ---
 
-## 🔑 Hướng dẫn lấy API Key (Dành cho người mới)
+## Hướng dẫn lấy API Key (Dành cho người mới)
 
 Để ứng dụng này có thể đi cào dữ liệu và nhờ AI chấm điểm, bạn cần trang bị cho nó 2 chiếc "chìa khóa" (API Key) hoàn toàn miễn phí.
 
@@ -40,9 +40,9 @@ Một ứng dụng web thông minh giúp tự động tìm kiếm các công vi�
 
 ---
 
-## 💻 Hướng dẫn Cài đặt & Chạy ứng dụng
+## Hướng dẫn Cài đặt & Chạy ứng dụng
 
-**⚠️ Yêu cầu bắt buộc:** Máy tính của bạn phải được cài đặt sẵn **Python** (phiên bản 3.9 trở lên). Nếu chưa có, hãy tải tại [python.org/downloads](https://www.python.org/downloads/) (Nhớ tích vào ô *Add Python.exe to PATH* khi cài đặt nhé).
+**Yêu cầu bắt buộc:** Máy tính của bạn phải được cài đặt sẵn **Python** (phiên bản 3.9 trở lên). Nếu chưa có, hãy tải tại [python.org/downloads](https://www.python.org/downloads/) (Nhớ tích vào ô *Add Python.exe to PATH* khi cài đặt nhé).
 
 **Bước 1: Tải mã nguồn về máy** Mở ứng dụng **Terminal** (trên Mac) hoặc **Command Prompt / PowerShell** (trên Windows) và gõ lệnh sau:
 ```bash
@@ -59,6 +59,15 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+## Hướng dẫn sử dụng
+* Tại giao diện web, nhìn sang thanh công cụ bên trái (Sidebar).
 
+* Dán Gemini API Key và SerpApi Key mà bạn vừa lấy ở trên vào 2 ô tương ứng.
+
+* Bấm Browse files để tải lên file CV của bạn (Lưu ý: Ứng dụng hiện tại hỗ trợ file text .txt. Hãy copy nội dung CV của bạn và dán vào 1 file Notepad nhé).
+
+* Nhập tiêu đề công việc bạn muốn tìm kiếm (VD: Data Scientist Hanoi) và bấm nút 🔍 Search Jobs.
+
+* Ngồi nhâm nhi tách cà phê, quan sát thanh tiến trình và xem AI phân tích độ phù hợp của bạn với từng công việc!
 
 
